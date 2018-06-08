@@ -32,10 +32,8 @@ ui <- fluidPage(
     ),
     # Show a plot of the generated distribution
     mainPanel(
-      splitLayout(
-        plotOutput("plotKM1"),
-        plotOutput("plotKM2")
-      ),
+      plotOutput("plotKM1"),
+      plotOutput("plotKM2"),
       plotOutput("plotCE")
     )
   )
@@ -60,8 +58,8 @@ server <- function(input, output, session) {
       km2 = unlist(km2, use.names=FALSE)
       ce = unlist(ce, use.names=FALSE)
       
-      paletteColor <- c('#E41A1C', '#377EB8', '#4DAF4A', '#984EA3',
-                        '#FF7F00', '#FFFF33', '#A65628', '#F781BF', '#999999')
+      #paletteColor <- c('#E41A1C', '#377EB8', '#4DAF4A', '#984EA3', '#FF7F00', '#FFFF33', '#A65628', '#F781BF', '#999999')
+      paletteColor <- c('red', 'blue', 'green', 'yellow', 'orange', 'brown', 'black', 'violet', 'pink', 'grey')
       output$plotKM1<- renderPlot({
         palette(paletteColor)
         

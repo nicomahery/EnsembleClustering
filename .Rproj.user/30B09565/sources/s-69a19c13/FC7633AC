@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1064209811",
     "id" : "FC7633AC",
-    "lastKnownWriteTime" : 1528458991,
-    "last_content_update" : 1528458991515,
+    "lastKnownWriteTime" : 1528461280,
+    "last_content_update" : 1528461280456,
     "path" : "~/ECDeploy/app.R",
     "project_path" : "app.R",
     "properties" : {
-        "cursorPosition" : "45,2",
-        "scrollLine" : "35"
+        "cursorPosition" : "61,109",
+        "scrollLine" : "49"
     },
     "relative_order" : 1,
     "source_on_save" : false,

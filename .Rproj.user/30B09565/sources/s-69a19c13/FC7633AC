@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1528458979717.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FC7633AC",
+    "lastKnownWriteTime" : 1528458991,
+    "last_content_update" : 1528458991515,
+    "path" : "~/ECDeploy/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "cursorPosition" : "45,2",
+        "scrollLine" : "35"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
